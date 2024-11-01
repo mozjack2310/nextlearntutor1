@@ -16,6 +16,8 @@ export default async function CustomersTable({
       <h1 className={`${lusitana.className} mb-8 text-xl md:text-2xl`}>
         Customers
       </h1>
+      //go back and fix the type error related to the placeholder prop that was
+      here//
       <Search />
       <div className="mt-6 flow-root">
         <div className="overflow-x-auto">
